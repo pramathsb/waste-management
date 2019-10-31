@@ -1,0 +1,178 @@
+/* over rides */
+@font-face {
+  font-family: dosis;
+  src: url("../fonts/Dosis-Regular.ttf"); }
+body {
+  background: url("../images/bg.jpg");
+  font-size: 22px; }
+
+.modal-content, .btn, .form-control {
+  border-radius: 0; }
+
+.main-wrapper {
+  font-family: dosis;
+  width: 800px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ccc; }
+  .main-wrapper .header {
+    background: #f4ed90;
+    padding: 10px; }
+    .main-wrapper .header .brand-logo {
+      max-width: 150px; }
+  .main-wrapper .hive-wrapper {
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+    background: url("../images/bg-ya.jpg"); }
+  .main-wrapper .text-container {
+    position: absolute;
+    z-index: 11;
+    display: none;
+    bottom: 40px;
+    width: 100%; }
+    .main-wrapper .text-container .photo {
+      height: 54px;
+      width: 54px;
+      border-radius: 100%;
+      background: #fee193;
+      margin: 0 10px;
+      border: 2px solid #d79c46;
+      float: left;
+      margin-top: 8px;
+      overflow: hidden; }
+    .main-wrapper .text-container .content-wrapper {
+      position: relative;
+      display: table;
+      background: #fee193;
+      margin: 2px;
+      padding: 5px 10px;
+      border-radius: 10px;
+      margin-left: 80px;
+      border: 2px solid #d79c46;
+      width: 88%; }
+      .main-wrapper .text-container .content-wrapper .content {
+        height: 54px;
+        display: table-cell;
+        vertical-align: middle; }
+    .main-wrapper .text-container .content-wrapper:after, .main-wrapper .text-container .content-wrapper:before {
+      right: 100%;
+      top: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none; }
+    .main-wrapper .text-container .content-wrapper:after {
+      border-color: rgba(254, 225, 147, 0);
+      border-right-color: #fee193;
+      border-width: 10px;
+      margin-top: -10px; }
+    .main-wrapper .text-container .content-wrapper:before {
+      border-color: rgba(215, 156, 70, 0);
+      border-right-color: #d79c46;
+      border-width: 13px;
+      margin-top: -13px; }
+  .main-wrapper .hive-container {
+    position: relative; }
+  .main-wrapper .comp_1, .main-wrapper .comp_2, .main-wrapper .comp_3, .main-wrapper .comp_4, .main-wrapper .comp_5 {
+    opacity: 0;
+    overflow: hidden;
+    height: 600px;
+    display: none; }
+  .main-wrapper .comp_1 .characters, .main-wrapper .comp_1 .fb, .main-wrapper .comp_1 .garbage, .main-wrapper .comp_1 .assets {
+    position: absolute;
+    z-index: 10; }
+  .main-wrapper .comp_1 .characters {
+    max-width: 30px; }
+  .main-wrapper .comp_1 .fb {
+    max-width: 15px; }
+  .main-wrapper .comp_1 .garbage {
+    top: 325px;
+    left: 81px;
+    max-width: 80px;
+    z-index: 1; }
+  .main-wrapper .comp_1 #slide_1 {
+    position: absolute;
+    z-index: 100;
+    opacity: 0;
+    top: 0;
+    width: 800px;
+    left: 0;
+    height: 600px; }
+  .main-wrapper .comp_2 .c2_bg {
+    background: #eaeaea;
+    height: 600px;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0; }
+  .main-wrapper .comp_2 img {
+    position: absolute;
+    z-index: 10; }
+  .main-wrapper .comp_2 .assets {
+    max-width: 40px; }
+  .main-wrapper .comp_3 img {
+    position: absolute;
+    z-index: 10; }
+  .main-wrapper .comp_3 .characters {
+    max-width: 40px; }
+  .main-wrapper .comp_4 img {
+    position: absolute;
+    z-index: 10; }
+  .main-wrapper .comp_4 .characters {
+    max-width: 40px;
+    z-index: 11; }
+  .main-wrapper .comp_4 .screen_box {
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #aaa; }
+    .main-wrapper .comp_4 .screen_box .container {
+      position: relative;
+      text-align: center;
+      width: 100%; }
+    .main-wrapper .comp_4 .screen_box .img-responsive {
+      max-width: 100%;
+      max-height: 100%;
+      display: inline;
+      position: relative; }
+  .main-wrapper .comp_5 img {
+    position: absolute;
+    z-index: 10; }
+  .main-wrapper .comp_5 .flash {
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFF; }
+  .main-wrapper .comp_6 img {
+    position: absolute;
+    z-index: 10; }
+  .main-wrapper .comp_6 .characters {
+    max-width: 40px;
+    z-index: 11; }
+  .main-wrapper .comp_6 .screen_box {
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #aaa; }
+    .main-wrapper .comp_6 .screen_box .container {
+      position: relative;
+      text-align: center;
+      width: 100%; }
+    .main-wrapper .comp_6 .screen_box .img-responsive {
+      max-width: 100%;
+      max-height: 100%;
+      display: inline;
+      position: relative; }
+
+/*# sourceMappingURL=styles.css.map */
